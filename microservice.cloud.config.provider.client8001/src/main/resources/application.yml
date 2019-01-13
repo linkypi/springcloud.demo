@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: microservicecloud-config-dept-client
+
+  devtools:
+    restart:
+      additional-paths: microservice.cloud.config.provider.client8001/src/main/resources

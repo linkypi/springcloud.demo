@@ -106,6 +106,7 @@
         <module>microservice.cloud.config</module>
         <module>microservice.cloud.config.client</module>
         <module>microservice.cloud.config.eureka.client7001</module>
+        <module>microservice.cloud.config.provider.client8001</module>
     </modules>
 
 </project>
