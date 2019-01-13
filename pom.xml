@@ -103,6 +103,9 @@
         <module>microservice.cloud.provider.hystrix9001</module>
         <module>microservice.cloud.consumer.hystrixdashboard</module>
         <module>microservice.cloud.zuul.gateway</module>
+        <module>microservice.cloud.config</module>
+        <module>microservice.cloud.config.client</module>
+        <module>microservice.cloud.config.eureka.client7001</module>
     </modules>
 
 </project>
