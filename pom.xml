@@ -101,6 +101,7 @@
         <module>microservice.cloud.provider8003</module>
         <module>microservice.cloud.consumer.feign</module>
         <module>microservice.cloud.provider.hystrix9001</module>
+        <module>microservice.cloud.consumer.hystrixdashboard</module>
     </modules>
 
 </project>

@@ -27,7 +27,7 @@ public class DeptController {
     }
 
     @RequestMapping(value = "/dept/get/{id}", method = RequestMethod.GET)
-//    @HystrixCommand(fallbackMethod = "processHystrix_Get")
+    @HystrixCommand(fallbackMethod = "processHystrix_Get")
     public Dept get(@PathVariable("id") Long id){
 
         Dept dept = service.findById(id);
@@ -43,7 +43,7 @@ public class DeptController {
     }
 
     //异步的执行
-//    @HystrixCommand(fallbackMethod = "asyncGetError")
+    @HystrixCommand(fallbackMethod = "asyncGetError")
     @RequestMapping(value = "/dept/async_get/{id}", method = RequestMethod.GET)
     public Future<Dept> getUserName(final Long id) {
         return new AsyncResult<Dept>() {
